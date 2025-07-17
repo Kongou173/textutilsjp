@@ -14,7 +14,7 @@
 ## インストール
 
 ```bash
-pip install .
+pip install textutilsjp
 ```
 
 ## 使い方
