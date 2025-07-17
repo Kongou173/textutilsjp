@@ -19,7 +19,9 @@
 ---
 
 ## インストール / Installation
-
+### 必要な物
+- python3.7より上のバージョン
+- 実行環境
 ```bash
 pip install textutilsjp
 ```
@@ -109,17 +111,6 @@ df["keywords"] = df["cleaned"].apply(lambda x: extract_keywords(x, topn=3))
 
 ---
 
-## よくある用途 / Typical Use Cases
-
-- 日本語データセットの前処理
-- スクレイピングした日本語文章のクレンジング
-- メール/URLリスト化
-- キーワード抽出によるカテゴリ分類
-- 業務日報やレポートの要約
-- テキストマイニングの下準備
-
----
-
 ## 開発・テスト
 
 ### ソースコードのクローン
@@ -138,11 +129,8 @@ pytest tests/
 
 ---
 
-## 貢献・フィードバック / Contribution & Feedback
-
-- プルリクエスト・Issue歓迎！
-- 新しい関数・改善案・バグ報告など何でもお願いします。
-- 日本語・英語どちらでもOKです。
+## 開発環境
+github codespaces
 
 ---
 
