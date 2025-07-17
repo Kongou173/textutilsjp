@@ -13,7 +13,6 @@ class TestTextUtilsJP(unittest.TestCase):
         self.assertEqual(to_hankaku('テスト１２３'), 'テスト123')
 
     def test_to_zenkaku(self):
-        # jaconvがなければ元テキストを返す（例として簡単なチェック）
         out = to_zenkaku('ABC! 123')
         self.assertTrue(isinstance(out, str))
 
