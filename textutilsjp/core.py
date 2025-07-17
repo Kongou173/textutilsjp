@@ -7,12 +7,10 @@ def to_hankaku(text: str) -> str:
 
 def to_zenkaku(text: str) -> str:
     """半角→全角変換（一部記号と数字・英字対応）"""
-    # Python標準では難しいため、外部ライブラリjaconvに依存も可
     try:
         import jaconv
         return jaconv.h2z(text, kana=False, digit=True, ascii=True)
     except ImportError:
-        # jaconvがなければnormalizeで最低限
         return text
 
 def hira_to_kata(text: str) -> str:
@@ -44,7 +42,6 @@ def summarize(text: str) -> str:
     sentences = [s.strip() for s in sentences if s.strip()]
     if not sentences:
         return ""
-    # 最も長い文、なければ先頭文
     return max(sentences, key=len)
 
 def extract_keywords(text: str, topn: int = 5) -> list:
