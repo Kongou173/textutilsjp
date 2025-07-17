@@ -155,5 +155,4 @@ MIT License
 
 ## 参考文献 / References
 
-- [日本語テキスト処理の基礎](https://nlp100.github.io/)
 - [Python 公式ドキュメント](https://docs.python.org/ja/3/)
