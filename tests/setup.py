@@ -9,7 +9,6 @@ setup(
     url="https://github.com/yourname/textutilsjp",
     packages=find_packages(),
     install_requires=[
-        # 'jaconv',  # 必要に応じてコメントアウトを外してください
     ],
     python_requires='>=3.7',
     license="MIT",
