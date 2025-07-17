@@ -140,12 +140,6 @@ MIT License
 
 ---
 
-## 英語版README / English README
-
-See [README_en.md](./README_en.md) for English documentation.
-
----
-
 ## 更新履歴 / Changelog
 
 - v0.0.0 最初のバージョンのリリース開始。2025/7/17(木曜日)
@@ -159,7 +153,7 @@ See [README_en.md](./README_en.md) for English documentation.
 
 ---
 
-## 参考 / References
+## 参考文献 / References
 
 - [日本語テキスト処理の基礎](https://nlp100.github.io/)
 - [Python 公式ドキュメント](https://docs.python.org/ja/3/)
