@@ -148,7 +148,7 @@ MIT License
 
 ## 連絡 / Contact
 
-- GitHub: [yourname](https://github.com/Kongou173)
+- GitHub: [こんごう](https://github.com/Kongou173)
 - Email: jifengtongsheng@gmail.com
 
 ---
